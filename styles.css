@@ -1,0 +1,170 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: poppins-l;
+    src: url("Poppins-Light.ttf");
+    font-family: poppins-semi;
+    src: url("Poppins-SemiBold.ttf");
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 450px;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.title__box-1 {
+    font-size: 30px;
+    font-family: poppins-l;
+    color: darkgrey;
+    text-align: center;
+}
+
+.title__box-2 {
+    font-size: 30px;
+    font-family: poppins-semi; 
+    color: black;
+    text-align: center;
+}
+
+.title__box-3 {
+    font-size: 15px;
+    font-family: poppins-l;
+    color: darkgrey;
+    text-align: center;
+}
+.card-1 {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px;
+    border-top: 5px solid rgb(146, 17, 17);
+    
+}
+
+.card-1__title {
+    display: flex;
+    flex-direction: row;
+    font-family: poppins-semi;
+    font-size: 25px;
+    color: rgb(75, 92, 92);
+}
+
+.card-1__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 15px;
+    gap: 50px;
+}
+
+.text-card {
+    font-size: 15px;
+    font-family: poppins-l;
+    color: darkgrey; 
+}
+
+.card-2 {
+    margin-top: 30px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px;
+    border-top: 5px solid rgb(243, 222, 30);
+}
+.card-2__title {
+    display: flex;
+    flex-direction: row;
+    font-family: poppins-semi;
+    font-size: 25px;
+    color: rgb(75, 92, 92);
+}
+
+.card-2__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 15px;
+    gap: 50px;
+}
+
+.left {
+    width: 350px;
+    margin-left: -420px;
+    margin-top: -440px;
+    padding: 10px;
+
+}
+
+.card-3 {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px;
+    border-top: 5px solid rgb(75, 205, 228);
+}
+
+.card-3__title {
+    display: flex;
+    flex-direction: row;
+    font-family: poppins-semi;
+    font-size: 25px;
+    color: rgb(75, 92, 92);
+}
+
+.card-3__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 15px;
+    gap: 50px;
+}
+
+.right {
+    width: 350px;
+    margin-left: 400px;
+    margin-top: -280px;
+    padding: 10px;
+}
+
+.card-4 {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px;
+    border-top: 5px solid rgb(67, 23, 224);
+}
+
+.card-4__title {
+    display: flex;
+    flex-direction: row;
+    font-family: poppins-semi;
+    font-size: 25px;
+    color: rgb(75, 92, 92);
+}
+
+.card-4__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 15px;
+    gap: 50px;
+}
